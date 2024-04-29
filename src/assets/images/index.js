@@ -4,6 +4,10 @@ import shopify from './shopify.png'
 import starbucks from './starbucks.png'
 import tesla from './tesla.png'
 import logo from './logo.svg'
+import Veritas from './Veritas.png'
+import Adbri from './Adbri.png'
+import Curtin from './Curtin.png'
+import Omni from './Omni.png'
 
 export {
     hero,
@@ -11,5 +15,9 @@ export {
     shopify,
     starbucks,
     tesla,
-    logo
+    logo,
+    Veritas,
+    Adbri,
+    Curtin,
+    Omni
 }
