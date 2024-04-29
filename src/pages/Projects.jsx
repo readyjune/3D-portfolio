@@ -16,7 +16,12 @@ const Projects = () => {
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
           I've embarked on numerous projects throughout my career, each one teaching me something new.
-
+        </p>
+        <p>
+          GitHub Link to all projects: <a className="blue-gradient_text font-semibold drop-shadow" href="https://github.com/readyjune" target="_blank" rel="noopener noreferrer">Visit My GitHub</a>
+        </p>
+        <p>
+          Most of projects are private because of NDA, but I'm happy to share my experience with you.
         </p>
       </div>
       <div className="flex flex-wrap my-20 gap-16">
