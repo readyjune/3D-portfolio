@@ -5,6 +5,7 @@ import arrow from '../assets/icons/arrow.svg'
 import CTA from '../components/CTA'
 
 
+
 const Projects = () => {
   return (
     <section className="max-container">
@@ -39,7 +40,7 @@ const Projects = () => {
               <p className="mt-2 text-slate-500">
                 {project.description}
               </p>
-              <div className="mt-5 flex items-center gap-2 font-poppins">
+              {/* <div className="mt-5 flex items-center gap-2 font-poppins">
                 <Link
                   to={project.link}
                   target="_blank"
@@ -54,7 +55,7 @@ const Projects = () => {
                   className="w-4 h-4 object-contain"
                 >
                 </img>
-              </div>  
+              </div>   */}
             </div>  
           </div>  
         ))}

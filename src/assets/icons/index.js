@@ -26,6 +26,19 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import swiftui from './swiftui.svg'
+import java from './java.svg'
+import python from './python.svg'
+import c_sharp from './c_sharp.svg'
+import php from './php.png'
+import aws from './aws.svg'
+import dot_net from './dot_net.svg'
+import laravel from './laravel.png'
+import mysql from './mysql.svg'
+import maria_db from './maria_db.svg'
+import firebase from './firebase.svg'
+import flutter from './flutter.svg'
+import shopify from './shopify.svg'
 
 export {
     css,
@@ -55,5 +68,18 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    swiftui,
+    java,
+    python,
+    c_sharp,
+    php,
+    aws,
+    dot_net,
+    laravel,
+    mysql,
+    maria_db,
+    firebase,
+    flutter,
+    shopify
 }

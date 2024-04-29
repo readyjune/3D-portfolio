@@ -86,6 +86,7 @@ export function Island({
 
       islandRef.current.rotation.y += 0.005 * Math.PI;
       rotationSpeed.current = 0.007;
+      
     } else if (event.key === "ArrowRight") {
       if (!isRotating) setIsRotating(true);
 
@@ -209,6 +210,13 @@ export function Island({
         default:
           setCurrentStage(null);
       }
+    }
+  });
+
+  // Auto-rotation logic
+  useFrame((state, delta) => {
+    if (islandRef.current) {
+      islandRef.current.rotation.y -= 0.001; // Change this value to adjust the speed of the rotation
     }
   });
 

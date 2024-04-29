@@ -14,11 +14,18 @@ const InfoBox = ({ text, link, btnText}) => (
 )
 const renderContent = {
     1: (
-        <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
-            Hi, I am <span className="font-semibold">Jinwoo</span> 
-            <br/>
-            A Software Engineer from Australia
-        </h1>
+        <div>
+            <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
+                Hi, I am <span className="font-semibold">Jinwoo</span> 
+                <br/>
+                A Software Engineer from Australia
+            </h1>
+            <h2 className="sm:text-s sm:leading-snug text-center neo-brutalism-white py-4 px-8 mx-10">
+                Interact with the 3D model by clicking and dragging it or using the arrow keys 
+            </h2>
+        </div>
+
+
     ),
     2: (
         <InfoBox

@@ -13,7 +13,7 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Software Engineer based in Perth, specialising in techincal support and web development.
+          Software Engineer based in Perth, specialising in techincal support and web/mobile development.
         </p>
       </div>
 
@@ -31,6 +31,9 @@ const About = () => {
                   alt={skill.name}
                   className="w-1/2 h-1/2 object-contain"  
                 />
+                <h1 className="w-[60%] h-[10%]">
+                  {skill.name}
+                </h1>
               </div>
             </div>
           ))}
